@@ -22,3 +22,17 @@
          navbar.classList.remove('scrolled');
      }
  });
+ function toggleProject(header) {
+    const projectCard = header.parentElement;
+    const wasActive = projectCard.classList.contains('active');
+    
+    // Close all project cards
+    document.querySelectorAll('.project-card').forEach(card => {
+        card.classList.remove('active');
+    });
+    
+    // If the clicked card wasn't active, open it
+    if (!wasActive) {
+        projectCard.classList.add('active');
+    }
+}

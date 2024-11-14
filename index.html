@@ -13,13 +13,13 @@
 <body>
     <nav class="navbar">
         <div class="nav-content">
-            <a href="https://yourportfolio.com" class="logo">Quinter<span>Ochieng</span></a>
+            <a href="#main" class="logo">Quinter<span>Ochieng</span></a>
 
             <ul class="nav-links">
                 <li><a href="#main">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
+                <li><a href="#events">Events and Conferences</a></li>
                 <li><a href="#contacts">Contact</a></li>
             </ul>
 
@@ -60,27 +60,154 @@
                 <p>Designing intuitive and user-friendly interfaces.</p>
             </div>
         </div>
+        <div class="skills-details">
+            <div class="skill-category">
+                <h3>Technical Skills</h3>
+                <div class="skill-bars">
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span>HTML/CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span>React</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span>Node.js</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Soft Skills</h3>
+                <div class="skill-bars">
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span>Communication</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span>Team Leadership</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span>Problem Solving</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </section>
 
     <section id="projects" class="projects section">
         <h2 class="section-title">My Projects</h2>
         <div class="project-grid">
             <div class="project-card">
-                <div class="project-content">
-                    <h3>Personal Projects</h3>
-                    <p>A responsive web application built with React and Node.js.</p>
+                <div class="project-header" onclick="toggleProject(this)">
+                    <h3>Project One</h3>
+                    <span class="expand-icon">+</span>
+                </div>
+                <div class="project-details">
+                    <div class="project-content">
+                        <p>A responsive web application built with React and Node.js.</p>
+                        <ul class="project-features">
+                            <li>React Frontend with Redux</li>
+                            <li>Node.js Backend API</li>
+                            <li>MongoDB Database</li>
+                            <li>Responsive Design</li>
+                            <li>User Authentication</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/project1">View Code</a>
+                            <a href="https://project1-demo.com">Live Demo</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+
             <div class="project-card">
-                <div class="project-content">
-                    <h3>Group Projects</h3>
-                    <p>An e-commerce platform with secure payment integration.</p>
+                <div class="project-header" onclick="toggleProject(this)">
+                    <h3>Project Two</h3>
+                    <span class="expand-icon">+</span>
+                </div>
+                <div class="project-details">
+                    <div class="project-content">
+                        <p>An e-commerce platform with secure payment integration.</p>
+                        <ul class="project-features">
+                            <li>Next.js Frontend</li>
+                            <li>Stripe Integration</li>
+                            <li>Product Management</li>
+                            <li>Shopping Cart</li>
+                            <li>Order Processing</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/project2">View Code</a>
+                            <a href="https://project2-demo.com">Live Demo</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+
             <div class="project-card">
-                <div class="project-content">
-                    <h3>Hackathons</h3>
-                    <p>A real-time chat application using WebSocket technology.</p>
+                <div class="project-header" onclick="toggleProject(this)">
+                    <h3>Project Three</h3>
+                    <span class="expand-icon">+</span>
+                </div>
+                <div class="project-details">
+                    <div class="project-content">
+                        <p>A real-time chat application using WebSocket technology.</p>
+                        <ul class="project-features">
+                            <li>WebSocket Integration</li>
+                            <li>Real-time Messaging</li>
+                            <li>User Presence</li>
+                            <li>Message History</li>
+                            <li>File Sharing</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/project3">View Code</a>
+                            <a href="https://project3-demo.com">Live Demo</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -89,45 +216,56 @@
         <h2 class="section-title">Events & Conferences</h2>
         <div class="events-grid">
             <div class="event-card">
-                <img src="conference1.jpg" alt="Tech conference 2023 showing keynote presentation" class="event-image" width="300" height="250">
+                <img src="images/gdghackathon.JPG" alt="Tech conference 2023 showing keynote presentation"
+                    class="event-image" width="300" height="250">
                 <div class="event-content">
-                    <h3>Tech Conference 2023</h3>
-                    <p>Participated in the annual tech conference focusing on web development trends and innovations.</p>
+                    <h3>Google Developer Group Hackathon</h3>
+                    <p>Participated in the annual tech conference focused on web development trends and innovations. In
+                        this hackathon, we developed a system called "NikoSafe," designed to detect unsafe areas based
+                        on security threat data. NikoSafe provides real-time alerts, notifying users if they are in a
+                        safe or potentially unsafe location.</p>
+
                 </div>
             </div>
             <div class="event-card">
-                <img src="workshop1.jpg" alt="Web Development Workshop with participants collaborating" class="event-image" width="300" height="250">
+                <img src="images/gogglemeet.JPG"
+                    alt="Web Development Workshop with participants collaborating with goggle developers"
+                    class="event-image" width="300" height="250">
                 <div class="event-content">
-                    <h3>Web Development Workshop</h3>
-                    <p>Led a workshop on modern web development practices and responsive design techniques.</p>
+                    <h3>Build with AI Kisumu Dala</h3>
+                    <p>Conducted an engaging "Build with AI Kisumu Dala" workshop, guiding participants through
+                        cutting-edge web development practices and advanced techniques to create impactful, AI-driven
+                        applications.</p>
                 </div>
             </div>
             <div class="event-card">
-                <img src="hackathon1.jpg" alt="Hackathon event with developers working on projects" class="event-image" width="300" height="250">
+                <img src="images/blockchain.JPG" alt="Hackathon event with developers working on projects"
+                    class="event-image" width="300" height="250">
                 <div class="event-content">
-                    <h3>Hackathon 2023</h3>
-                    <p>Participated in a 48-hour hackathon, developing innovative solutions for real-world problems.</p>
+                    <h3>Blockchain Hackathon</h3>
+                    <p>Participated in a 48-hour blockchain hackathon focused on developing innovative solutions to
+                        real-world problems. My team and I developed a blockchain-based system called "Safaris." This
+                        platform connects businesspeople with verified drivers who transport goods between markets.
+                        Safaris stores driver information and registration details securely on the blockchain, enhancing
+                        security and accountability for all users.</p>
+
                 </div>
             </div>
             <div class="event-card">
-                <img src="seminar1.jpg" alt="AI Development Seminar with industry experts" class="event-image" width="300" height="250">
+                <img src="images/Ai.jpg" alt="AI Development Seminar with industry experts" class="event-image"
+                    width="300" height="250">
                 <div class="event-content">
                     <h3>AI Development Seminar</h3>
-                    <p>Attended a specialized seminar on artificial intelligence and machine learning implementation.</p>
+                    <p>Attended a specialized seminar on artificial intelligence and machine learning implementation.
+                    </p>
                 </div>
             </div>
             <div class="event-card">
-                <img src="meetup1.jpg" alt="Tech Meetup showing group discussion" class="event-image" width="300" height="250">
+                <img src="images/meetup.jpg" alt="Tech Meetup showing group discussion" class="event-image" width="300"
+                    height="250">
                 <div class="event-content">
-                    <h3>Tech Meetup 2023</h3>
+                    <h3>Tech Meetup</h3>
                     <p>Participated in monthly tech meetups discussing latest industry trends and networking.</p>
-                </div>
-            </div>
-            <div class="event-card">
-                <img src="codecamp1.jpg" alt="Code Camp with intensive programming sessions" class="event-image" width="300" height="250">
-                <div class="event-content">
-                    <h3>Code Camp 2023</h3>
-                    <p>Completed an intensive coding bootcamp focusing on full-stack development.</p>
                 </div>
             </div>
         </div>
@@ -148,11 +286,11 @@
             <div class="footer-section">
                 <h3>Quick Links</h3>
                 <ul class="footer-links">
-                    <li><a href="https://yourportfolio.com/home">Home</a></li>
-                    <li><a href="https://yourportfolio.com/about">About</a></li>
-                    <li><a href="https://yourportfolio.com/projects">Projects</a></li>
-                    <li><a href="https://yourportfolio.com/skills">Skills</a></li>
-                    <li><a href="https://yourportfolio.com/contact">Contact</a></li>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
 
