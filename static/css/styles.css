@@ -314,6 +314,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
+  
 }
 
 .project-card {
@@ -326,7 +327,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem;
-    background: #f8f8f8;
+    background: #fcdf00;
 }
 
 .expand-icon {
@@ -338,6 +339,7 @@ body {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
+    background:transparent;
 }
 
 .project-card.active .project-details {
