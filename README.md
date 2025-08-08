@@ -52,7 +52,7 @@ Create a Pull Request to merge your changes.
 
 If you’d like to view my portfolio without contributing or cloning the repository, you can simply visit the live version of my site by clicking the link below:
 
-My Portfolio  (https://quinterabok.up.railway.app/)
+My Portfolio  (https://apondi-art.github.io/portfolio/)
 
 This link will take you to a fully-functional, live version of my portfolio. Feel free to explore my work and get in touch if you have any questions or feedback!
 
