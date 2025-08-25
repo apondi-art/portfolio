@@ -18,6 +18,5 @@
 |-- static
     |-- css
         |-- styles.css
-    |-- js
-        |-- theme.js
     |-- script.js
+    |-- theme.js
