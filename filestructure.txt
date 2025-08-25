@@ -1,0 +1,21 @@
+|-- LICENSE
+|-- README.md
+|-- colors
+    |-- color
+|-- go.mod
+|-- handlers
+    |-- indexhandler.go
+|-- images
+    |-- Ai.jpg
+    |-- blockchain.jpg
+    |-- display-image.jpg
+    |-- displayimage.jpg
+    |-- gdghackathon.jpg
+    |-- gogglemeet.jpg
+    |-- meetup.jpg
+|-- index.html
+|-- main.go
+|-- static
+    |-- css
+        |-- styles.css
+    |-- script.js
