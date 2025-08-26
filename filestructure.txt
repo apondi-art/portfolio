@@ -8,7 +8,8 @@
 |-- images
     |-- Ai.jpg
     |-- blockchain.jpg
-    |-- display-image.jpg
+    |-- display-image.png
+    |-- display-images.jpg
     |-- displayimage.jpg
     |-- gdghackathon.jpg
     |-- gogglemeet.jpg
