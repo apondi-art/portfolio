@@ -1,5 +1,12 @@
 import { defineConfig } from 'astro/config';
 
+const getBase = () => {
+  if (process.env.DEPLOY_ENV === 'github') {
+    return '/portfolio';
+  }
+  return '/';
+}
+
 export default defineConfig({
   // Your project's public directory.
   publicDir: 'public',
@@ -22,5 +29,5 @@ export default defineConfig({
 
   // GitHub Pages deployment settings.
   site: 'https://apondi-art.github.io',
-  base: '/portfolio',
+  base: getBase(),
 });
