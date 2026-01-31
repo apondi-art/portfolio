@@ -4,7 +4,7 @@
 
 A personal portfolio website built with [Astro](https://astro.build/) to showcase my projects, skills, and experience as a Full-Stack Developer and UI/UX Designer.
 
-**Live Demo:** [https://apondi-art.github.io/portfolio/](https://apondi-art.github.io/portfolio/)
+**Live Demo:** [https://portfolio-flame-nine-17.vercel.app/](https://apondi-art.github.io/portfolio/)
 
 ![Portfolio Screenshot](./screenshot.png)
 
