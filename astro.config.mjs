@@ -22,4 +22,5 @@ export default defineConfig({
 
   // GitHub Pages deployment settings.
   site: 'https://apondi-art.github.io',
+  base: '/portfolio',
 });
